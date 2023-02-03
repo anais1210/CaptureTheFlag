@@ -16,7 +16,6 @@ func getRightPort(apiPort int, apiUrl string) string {
 	var key string
 	 for i := 3000; i < 4001 ; i++ {
 		url := fmt.Sprintf("%s:%d",apiUrl, i)
-
 		response, err := http.Get(url)
 		if err == nil {
 			defer response.Body.Close()
@@ -28,12 +27,10 @@ func getRightPort(apiPort int, apiUrl string) string {
 			splitStr:= strings.Split(str, ": ")
 			key = splitStr[1]
 			break;
-			
 		}else{
 			fmt.Println(err)
 		}
 	}
-	fmt.Println(key)
 	return key
 }
 
@@ -43,7 +40,7 @@ func postURL(apiUrl string, secretKey string, apiPort2 int, filepath string)  st
 	var jsonStr = []byte(`{}`)
 	resp, err := http.Post(url+"/?secretKey="+secretKey, "application/json", bytes.NewBuffer(jsonStr))
 	if err != nil {
-		fmt.Printf("Error POSTing : %v\n", err)
+		fmt.Printf("Error : %v\n", err)
 	}
 	if resp.Body == nil {
 		fmt.Println("resp body nil")
@@ -68,7 +65,6 @@ func fileContent(apiUrl string) {
 	}
 	defer file.Close()
 
-	// Lecture du fichier CSV
 	reader := csv.NewReader(file)
 	content, err := reader.ReadAll()
 	if err != nil {
@@ -91,7 +87,7 @@ func finalStep(apiUrl string, lastPort int , lastKey []string){
 	var jsonStr = []byte(`{}`)
 	resp, err := http.Post(url+"/?finalKey="+ lastKey[0], "application/json", bytes.NewBuffer(jsonStr))
 	if err != nil {
-		fmt.Printf("Error POSTing : %v\n", err)
+		fmt.Printf("Error : %v\n", err)
 	}
 	if resp.Body == nil {
 		fmt.Println("resp body nil")
