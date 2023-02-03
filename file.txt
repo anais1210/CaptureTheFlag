@@ -1,0 +1,98 @@
+<!DOCTYPE html><html lang="en" class="notranslate" translate="no"><head><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Smash</title>
+  <base href="/">
+  <meta name="google" content="notranslate">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="theme-color" content="#EA5159">
+  <style type="text/css">@font-face{font-family:'Nunito';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshdTQ3iQ.woff) format('woff');}@font-face{font-family:'Nunito';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDBImdTQ3iQ.woff) format('woff');}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxM.woff) format('woff');}@font-face{font-family:'Roboto';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmYUtfBBc-.woff) format('woff');}@font-face{font-family:'Nunito';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/nunito/v25/XRXV3I6Li01BKofIOOaBTMnFcQIG.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Nunito';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/nunito/v25/XRXV3I6Li01BKofIMeaBTMnFcQIG.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Nunito';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/nunito/v25/XRXV3I6Li01BKofIOuaBTMnFcQIG.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Nunito';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/nunito/v25/XRXV3I6Li01BKofIO-aBTMnFcQIG.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Nunito';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/nunito/v25/XRXV3I6Li01BKofINeaBTMnFcQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Nunito';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/nunito/v25/XRXV3I6Li01BKofIOOaBTMnFcQIG.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Nunito';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/nunito/v25/XRXV3I6Li01BKofIMeaBTMnFcQIG.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Nunito';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/nunito/v25/XRXV3I6Li01BKofIOuaBTMnFcQIG.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Nunito';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/nunito/v25/XRXV3I6Li01BKofIO-aBTMnFcQIG.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Nunito';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/nunito/v25/XRXV3I6Li01BKofINeaBTMnFcQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Roboto';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmYUtfCRc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Roboto';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmYUtfABc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Roboto';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmYUtfCBc4AMP6lbBP.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmYUtfBxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmYUtfCxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Roboto';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmYUtfChc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmYUtfBBc4AMP6lQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}</style>
+  <link rel="icon" type="image/x-icon" href="./assets/img/smash-logo/png/icono-no-chip-red.png">
+  <style>
+    .fb-loader-content {
+      background-color: #EA5159;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      position: fixed;
+      width: 100%;
+    }
+
+    .fb-Logo_pastille_blanc,
+    .fb-Logo_pastille_blanc>svg {
+      height: 50px;
+      width: 100px;
+      display: flex;
+    }
+  </style>
+<style>@charset "UTF-8";@font-face{font-family:Smash;src:url(Smash.242bf21f988c029f06a3.eot?9qskxk);src:url(Smash.242bf21f988c029f06a3.eot?9qskxk#iefix) format("embedded-opentype"),url(Smash.a9745baec9be540c729f.ttf?9qskxk) format("truetype"),url(Smash.33b19965fbf4bef17e18.woff?9qskxk) format("woff"),url(Smash.ced9155e4accedaaace0.svg?9qskxk#Smash) format("svg");font-weight:400;font-style:normal;font-display:block}[class*=" icon-"]{font-family:Smash!important;speak:never;font-style:normal;font-weight:400;font-feature-settings:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}html{box-sizing:border-box;height:100%}*,:after,:before{box-sizing:inherit}body,div,html{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;outline:none;word-break:break-word}body{height:100%;width:100%;line-height:1}html{font-size:62.5%}body{color:#333}body{font-family:Roboto,sans-serif}body{line-height:1.42857143;font-size:1.4rem}</style><link rel="stylesheet" href="styles.d4a1cfedabd046962de4.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.d4a1cfedabd046962de4.css"></noscript></head>
+
+<body>
+  <app-root></app-root>
+  <div class="fb-loader-content">
+    <div class="fb-loader-text-logo">
+      <div class="fb-Logo_pastille_blanc icon-fullscreen">
+        <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 981.28 255.89" style="enable-background:new 0 0 981.28 255.89;" space="preserve">
+          <style type="text/css">
+            .st0 {
+              clip-path: url(#SVGID_2_);
+              fill: #fff;
+            }
+          </style>
+          <g>
+            <g>
+              <defs>
+                <rect id="SVGID_1_" x="10.15" y="6.18" width="965.68" height="238.64"></rect>
+              </defs>
+              <clipPath id="SVGID_2_">
+                <use href="#SVGID_1_" style="overflow:visible;"></use>
+              </clipPath>
+              <path class="st0" d="M959.54,189.81l14.41-67.31c1.42-6.38,1.89-11.1,1.89-15.35c0-21.26-12.28-37.79-36.84-37.79
+			c-10.63,0-22.2,3.78-29.52,12.52l13.46-63.06H886.8l-36.13,170.98h35.9l14.64-68.01c2.6-11.81,9.68-20.55,20.78-20.55
+			c10.63,0,16.53,6.61,16.53,16.3c0,2.12-0.24,4.72-1.42,9.92l-13.46,62.35H959.54z M750.3,154.38v1.42
+			c0,11.1,7.32,37.55,46.52,37.55c30.23,0,46.52-20.07,46.52-39.2c0-14.41-6.85-27.16-26.69-35.19l-14.64-5.9
+			c-3.78-1.42-6.38-4.49-6.38-8.5c0-5.9,5.2-10.15,12.04-10.15c12.28,0,14.17,8.74,14.17,14.88l30.7-3.54
+			c-0.24-13.46-7.79-36.84-44.63-36.84c-27.16,0-45.82,18.18-45.82,39.44c0,13.93,6.85,25.98,26.69,34.24l11.34,4.72
+			c6.85,2.83,8.03,6.61,8.03,10.16c0,5.2-4.02,9.68-12.52,9.68c-9.21,0-15.35-5.67-15.35-15.59c0-0.24,0-0.95,0.24-2.12
+			L750.3,154.38z M719.36,72.44L717,84.95c-2.36-4.49-10.86-15.35-33.3-15.35c-33.06,0-59.28,28.58-59.28,69.43
+			c0,29.76,17.71,52.66,46.05,52.66c16.06,0,25.03-8.74,29.52-15.82c-0.47,3.07-0.71,6.38-0.71,9.68c0,0.94,0,2.83,0.24,4.25h32.59
+			c-0.24-2.12-0.24-3.78-0.24-4.49c0-5.9,0.71-12.99,2.13-19.13l20.07-93.76H719.36z M687.01,102.19c11.81,0,20.07,7.79,20.07,22.44
+			c0,24.32-13.7,36.13-26.69,36.13c-11.81,0-20.55-8.26-20.55-23.38C659.85,120.38,669.3,102.19,687.01,102.19 M525.95,189.81
+			l14.64-68.25c2.6-11.81,9.21-20.31,20.55-20.31c10.63,0,16.06,7.09,16.06,16.53c0,1.65-0.24,4.72-0.95,7.56l-13.7,64.47h35.66
+			l14.88-69.9c0.71-4.01,1.18-7.79,1.18-11.57c0-22.2-14.64-38.97-38.02-38.97c-9.68,0-26.69,1.89-38.73,17
+			c-5.67-10.15-16.29-17-31.88-17c-11.1,0-23.85,4.49-30.94,14.17c0.47-2.83,0.47-6.14,0.47-11.1h-34.95
+			c0,3.78-0.24,10.15-2.12,19.6l-20.55,97.77h35.9l14.64-68.25c2.6-12.04,9.68-20.31,20.55-20.31c10.86,0,16.29,7.09,16.29,16.53
+			c0,1.65-0.24,4.25-0.94,7.32l-13.93,64.71H525.95z M316,154.38v1.42c0,11.1,7.32,37.55,46.52,37.55
+			c30.23,0,46.52-20.07,46.52-39.2c0-14.41-6.85-27.16-26.69-35.19l-14.64-5.9c-3.78-1.42-6.38-4.49-6.38-8.5
+			c0-5.9,5.2-10.15,12.04-10.15c12.28,0,14.17,8.74,14.17,14.88l30.7-3.54c-0.24-13.46-7.79-36.84-44.64-36.84
+			c-27.16,0-45.82,18.18-45.82,39.44c0,13.93,6.85,25.98,26.69,34.24l11.34,4.72c6.85,2.83,8.03,6.61,8.03,10.16
+			c0,5.2-4.01,9.68-12.52,9.68c-9.21,0-15.35-5.67-15.35-15.59c0-0.24,0-0.95,0.24-2.12L316,154.38z"></path>
+              <path class="st0" d="M206.45,206.72c-32.08,32.08-77.63,45-121.83,34.54c-6.68-1.58-10.81-8.27-9.23-14.95
+			c1.58-6.68,8.27-10.81,14.95-9.23c35.76,8.46,72.59-1.98,98.54-27.93c24.87-24.87,35.6-60.34,28.71-94.89
+			c-0.72-3.62-2.52-6.95-5.2-9.63L212,84.24c-5.18-5.18-12.99-6.93-19.88-4.45L86.15,118.18c-6.46,2.32-13.57-1.03-15.89-7.49
+			c-2.32-6.46,1.04-13.58,7.5-15.89l105.97-38.39c15.91-5.71,33.9-1.68,45.85,10.26l0.39,0.39c6.16,6.16,10.31,13.89,12,22.34
+			C250.48,132.11,237.2,175.97,206.45,206.72"></path>
+              <path class="st0" d="M48.19,44.28c32.08-32.08,77.63-45,121.83-34.54c6.68,1.58,10.81,8.27,9.23,14.95
+			c-1.58,6.68-8.27,10.81-14.95,9.23c-35.76-8.46-72.59,1.98-98.54,27.93c-24.87,24.86-35.6,60.34-28.71,94.89
+			c0.72,3.62,2.52,6.95,5.2,9.63l0.39,0.39c5.18,5.18,12.99,6.93,19.88,4.45l105.96-38.39c6.46-2.32,13.57,1.03,15.89,7.49
+			c2.32,6.46-1.04,13.58-7.5,15.89L70.92,194.59c-15.91,5.71-33.9,1.68-45.85-10.26l-0.39-0.39c-6.16-6.16-10.31-13.89-12-22.34
+			C4.17,118.89,17.44,75.03,48.19,44.28"></path>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <script>
+    function isIE() { return window.navigator.userAgent.match(/(MSIE|Trident)/) }
+    if (isIE()) {
+    } else {
+      var script = document.createElement("script");
+      document.body.appendChild(script)
+    };
+  </script>
+<script src="runtime.16ccb0cb8014956e16b5.js" defer></script><script src="polyfills-es5.a62e344bee27e1c9e168.js" nomodule defer></script><script src="polyfills.4c31840ff43f492d1151.js" defer></script><script src="main.f7b0b52a3c3254889a31.js" defer></script>
+
+</body></html>
